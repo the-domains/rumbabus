@@ -1,28 +1,40 @@
-name: rumbabus
-favicon: null
-layout_spectrum: 0.355016159825027
-typography_spectrum: 0.21507112309336662
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.355016159825027
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.286106581101194
+  brandStrength: 0.8423737972043455
+  rhythmicContrast: 0.09521536924876273
   brandColors:
     - '#9D2D3C'
     - '#DDE4DD'
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-  brandStrength: 0.8423737972043455
   lightness: 0.5307441183831543
-  saturation: 0.286106581101194
-  rhythmicContrast: 0.09521536924876273
 purpose: []
+favicon: null
+name: rumbabus
+typography_spectrum: 0.2150711230933666
